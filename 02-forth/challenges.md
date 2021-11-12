@@ -2,21 +2,21 @@
 
 ## Warm up challenges
 
-1. Write two subroutines say-odd and say-even. say-odd prints the word odd to the screen and say-even prints the word even to the screen. Expected output:
+1. Write two subroutines `say-odd` and `say-even`. `say-odd` prints the word odd to the screen and `say-even` prints the word even to the screen. Expected output:
 
         > say-odd
         odd
         > say-even
         even
         
-2. Write a subroutine say-odd-or-even. The subroutine takes a number from the stack, prints that number; then, if it's odd, it calls say-odd, otherwise, it calls say-even.
+2. Write a subroutine `say-odd-or-even`. The subroutine takes a number from the stack, prints that number; then, if it's odd, it calls `say-odd`, otherwise, it calls `say-even`.
 
         > 3 say-odd-or-even
         odd
         > 4 say-odd-or-even
         even
         
-3. Write a subroutine say-odd-or-even-up-to. The subroutine takes a number from the stack, counts from 1 up to that number, and for each number encountered, calls say-odd-or-even.
+3. Write a subroutine `say-odd-or-even-up-to`. The subroutine takes a number from the stack, counts from 1 up to that number, and for each number encountered, calls `say-odd-or-even`.
 
         > 5 say-odd-or-even-up-to
         1 odd
